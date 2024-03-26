@@ -1,42 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="signin">
-        <h1><a href="#" onclick="history.back(-1)">회원가입 로고</a></h1>
-      </div>
-      <div class="main">
-        <fieldset>
-          <input type="text" id="username" placeholder="아이디" />
-        </fieldset>
-
-        <div class="success-message hide">사용할 수 있는 아이디입니다</div>
-        <div class="failure-message hide">아이디는 4~12글자이어야 합니다</div>
-        <div class="failure-message2 hide">영어 또는 숫자만 가능합니다</div>
-
-        <fieldset>
-          <input type="password" id="password" placeholder="비밀번호" />
-        </fieldset>
-
-        <div class="strongPassword-message hide">8글자 이상, 영문, 숫자, 특수문자(@$!%*#?&)를 사용하세요</div>
-
-        <fieldset>
-          <input type="password" id="password-retype" placeholder="비밀번호 확인" />
-        </fieldset>
-
-        <div class="mismatch-message hide">비밀번호가 일치하지 않습니다</div>
-
-        <fieldset class="signup flex" style="display: block">
-          <button>회원가입</button>
-          <button><a href="../login/index.html"></a>로그인</button>
-        </fieldset>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>    
+  <div class="container">
+        <a href="#" onclick="history.back(-1)" style="font-size: 50px; margin-right: 90%;"><</a>
+        <main>
+          <h1>Sign up</h1>
+          <div class="log">
+            <div class="id">
+              <input type="text" placeholder="아이디:">
+            </div>
+            <div class="pw">
+              <input type="password" placeholder="비밀번호:">
+          </div>
+        </main> 
+         <div class="logButton ">
+      <button>회원가입</button>
+      <button>로그인</button>
+   </div>
     </div>
-  </body>
+ 
+</body>
 </html>
