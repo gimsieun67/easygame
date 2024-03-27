@@ -49,8 +49,17 @@ button {
   width: 150px;
   height: 3rem;
 }
-.logButton > button {
-  margin-top: 100px;
+.logButton {
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15%;
+}
+.logButton > form > button {
   border-radius: 5px 5px 5px 5px; 
   background-color: aquamarine;
 }
+/* .logButton > button {
+  margin-top: 100px;
+  border-radius: 5px 5px 5px 5px; 
+  background-color: aquamarine;
+} */
