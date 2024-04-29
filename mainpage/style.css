@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.logo > img {
+  width: 400px;
+  height: 130px;
+}
+.logo {
+  justify-content: space-around;
+  align-items: center;
+  background-color: #303130;
+}
+.login {
+  gap: 50px;
+  padding-bottom: 20px;
+}
+.login > li {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: gray;
+}
+.login > li > a {
+  color: white;
+}
+.mainmenu {
+  justify-content: space-around;
+  font-size: 25px;
+}
+.mainmenu > li {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  text-align: center;
+  padding: 50px 100px;
+  color: white;
+  background-color: #00000052;
+  font-weight: 600;
+  font-size: 25px;
+  transition: 0.3s;
+  border-radius: 10px 10px 10px 10px;
+}
+.mainmenu > li:hover {
+  scale: 1.2;
+  background-color: #777b7e;
+}
+.mainmenu > li > a {
+  color: red;
+}
+nav {
+  padding-top: 50px;
+}
+.bgImg {
+  background-image: url("./images/background\ Img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 781px;
+}
+.made {
+  width: 150px;
+  justify-content: flex-end;
+  margin-top: 30%;
+  background-color: antiquewhite;
+}
